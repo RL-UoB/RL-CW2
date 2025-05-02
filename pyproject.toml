@@ -1,0 +1,27 @@
+[project]
+name = "cw2"
+version = "0.1.0"
+description = "Libraries needed for RL coursework 2"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ale-py>=0.8.1",
+    "furo",
+    "gym[accept-rom-license,atari]>=0.26.2",
+    "gymnasium[accept-rom-license,atari]>=0.29.1",
+    "ipykernel>=6.29.5",
+    "moviepy>=2.1.2",
+    "myst-parser>=4.0.1",
+    "numpy>=2.2.4",
+    "opencv-python>=4.11.0.86",
+    "pygame>=2.6.1",
+    "sphinx>=7.4.7",
+    "sphinx-autobuild>=2024.10.3",
+    "sphinx-gallery",
+    "sphinx-github-changelog>=1.4.0",
+    "torch>=2.6.0",
+]
+
+[tool.uv.sources]
+sphinx-gallery = { git = "https://github.com/sphinx-gallery/sphinx-gallery.git", rev = "4006662c8c1984453a247dc6d3df6260e5b00f4b" }
+furo = { git = "https://github.com/Farama-Foundation/Celshast" }
