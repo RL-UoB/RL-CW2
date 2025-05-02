@@ -28,7 +28,8 @@ Since the exploration of these algorithms include different variants, the follow
   - `semi_gradient_td0.ipynb`: Notebook for the environment implementation using TD(0) semigradient.
 
 - **`SARSA/`**: Contains implementations of various SARSA algorithm.
-  - `sarsa_gradient.ipynb`: Notebook for the environment implementation using SARSA algorithm variants.
+  - `default_env.ipynb`: Notebook for the environment implementation using SARSA algorithm variants for the default environment.
+  - - `modified_env.ipynb`: Notebook for the environment implementation using SARSA algorithm variants for the modified environment.
 
 - **`PPO/`**: Contains implementations of various PPO algorithm variants.
   - `ppo.ipynb`: Notebook for the environment implementation using PPO algorithm variants.
